@@ -1,5 +1,10 @@
 # router使用示例
 
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ahyiru/router/blob/develop/LICENSE)
+[![npm version](https://img.shields.io/npm/v/@huxy/router.svg)](https://www.npmjs.com/package/@huxy/router)
+[![Build Status](https://api.travis-ci.com/ahyiru/router.svg?branch=master)](https://app.travis-ci.com/github/ahyiru/router)
+[![](https://img.shields.io/badge/blog-ihuxy-blue.svg)](http://ihuxy.com/)
+
 [useRouter的使用](https://github.com/ihuxy/doc/blob/master/router/useRouter%E4%BD%BF%E7%94%A8.md)
 
 ## useRouter使用
