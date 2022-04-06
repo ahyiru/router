@@ -1,6 +1,6 @@
 {
   "name": "@huxy/router",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "title": "useRouter",
   "feature": "0.0.1",
   "hooks": "0.0.1",
@@ -13,10 +13,8 @@
     "router",
     "useRouter"
   ],
-  "main": "lib/index.js",
-  "scripts": {
-    "start": "node server"
-  },
+  "sideEffects": false,
+  "main": "./lib/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/ahyiru/router"
