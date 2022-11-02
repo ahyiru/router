@@ -5,7 +5,6 @@
 [![Build Status](https://api.travis-ci.com/ahyiru/router.svg?branch=master)](https://app.travis-ci.com/github/ahyiru/router)
 [![](https://img.shields.io/badge/blog-ihuxy-blue.svg)](http://ihuxy.com/)
 
-
 ## 安装
 
 ```
@@ -17,7 +16,6 @@ pnpm i @huxy/router
 
 ```javascript
 import {useRouter, Link, useRoute} from '@huxy/router';
-
 ```
 
 ### useRouter
@@ -26,13 +24,11 @@ useRouter 是路由入口，传入路由配置信息，返回 页面元素 outpu
 
 ```javascript
 const {output, loading, updateRouter} = useRouter(routerCfgs);
-
 ```
 
 #### 入参信息
 
 ```javascript
-
 const others = {
   projectKey: '123',
 };
@@ -57,7 +53,6 @@ const input = {
 };
 
 const {output} = useRouter(input);
-
 ```
 
 这里传的配置为全局配置，单个路由信息配置可在路由表信息里面配置。
@@ -67,27 +62,15 @@ const {output} = useRouter(input);
 ```javascript
 const {
   //订阅发布功能
-  eventBus: {
-    on,
-    emit,
-    off,
-  },
+  eventBus: {on, emit, off},
   //路由跳转
-  router: {
-    push,
-    replace,
-  },
+  router: {push, replace},
   //状态管理
-  store: {
-    getState,
-    setState,
-    subscribe,
-  },
+  store: {getState, setState, subscribe},
   updateRouter, //更新路由
   output, //当前路径下页面
   loading, //是否加载中
 } = output;
-
 ```
 
 例如：
@@ -112,7 +95,6 @@ const App = ({routerCfgs}) => {
     </>
   );
 };
-
 ```
 
 `updateRouter` 可更新整个路由配置。
@@ -138,7 +120,6 @@ const routers = {
   exact: false, //绝对路径
   ...others, //其它配置
 };
-
 ```
 
 默认进入第一个路径，也可自行设置，如通过 `redirect` 设置默认进入到指定路径。
@@ -156,30 +137,14 @@ const routers = {
 ```javascript
 const {
   //订阅发布功能
-  eventBus: {
-    on,
-    emit,
-    off,
-  },
+  eventBus: {on, emit, off},
   //路由跳转
-  router: {
-    push,
-    replace,
-  },
+  router: {push, replace},
   //状态管理
-  store: {
-    getState,
-    setState,
-    subscribe,
-  },
+  store: {getState, setState, subscribe},
   updateRouter, //跟新路由
   //浏览器history
-  history: {
-    getState,
-    back,
-    forward,
-    go,
-  },
+  history: {getState, back, forward, go},
 
   current, //当前路由列表，包含父级所有路由信息
   inputPath, //传入的路径
@@ -191,7 +156,6 @@ const {
   open, //是否为打开状态
   active, //是否为选中状态
 } = props;
-
 ```
 
 #### push & replace
@@ -208,7 +172,6 @@ router.push({
 
 // 相对路径
 router.push('./b/c');
-
 ```
 
 `replace` 同 `push` 。
@@ -224,10 +187,9 @@ router.push('./b/c');
 
 ```javascript
 <Link {...props} />
-
 ```
 
-### Link属性
+### Link 属性
 
 ```javascript
 const props = {
@@ -241,13 +203,12 @@ const props = {
   disabled: false, //禁用点击
   ...rest, //其它配置
 };
-
 ```
 
 #### to 属性配置
 
 ```javascript
-to = "/a/b/c";
+to = '/a/b/c';
 
 to = {
   path: '/a/b/c',
@@ -257,8 +218,7 @@ to = {
 };
 
 // 相对路径
-to = "./b/c";
-
+to = './b/c';
 ```
 
 同 `push` 。
@@ -267,8 +227,6 @@ to = "./b/c";
 
 ```javascript
 const routerCfgs = useRoute();
-
 ```
 
 返回当前路由的配置信息，同 页面路由信息，路由改变时会触发配置信息的更新。
-

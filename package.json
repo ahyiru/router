@@ -1,6 +1,6 @@
 {
   "name": "@huxy/router",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "title": "useRouter",
   "feature": "0.0.1",
   "hooks": "0.0.1",
