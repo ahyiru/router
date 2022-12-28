@@ -1,6 +1,6 @@
 {
   "name": "@huxy/router",
-  "version": "1.6.5",
+  "version": "1.7.0",
   "title": "useRouter",
   "feature": "0.0.1",
   "hooks": "0.0.1",
@@ -15,6 +15,10 @@
   ],
   "sideEffects": false,
   "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ahyiru/router"
