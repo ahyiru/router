@@ -1,6 +1,6 @@
 {
   "name": "@huxy/router",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "title": "useRouter",
   "feature": "0.0.1",
   "hooks": "0.0.1",
@@ -17,6 +17,7 @@
   "main": "./lib/index.js",
   "exports": {
     ".": "./lib/index.js",
+    "./unpkg.js": "./lib/index.unpkg.js",
     "./package.json": "./package.json"
   },
   "repository": {
