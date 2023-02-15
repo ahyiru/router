@@ -1,6 +1,6 @@
 {
   "name": "@huxy/router",
-  "version": "1.8.2",
+  "version": "1.9.0",
   "title": "useRouter",
   "feature": "0.0.1",
   "hooks": "0.0.1",
@@ -25,12 +25,9 @@
     "url": "https://github.com/ahyiru/router"
   },
   "license": "MIT",
-  "devDependencies": {},
+  "dependencies": {},
   "peerDependencies": {
     "react": ">=17.0.0"
-  },
-  "directories": {
-    "lib": "lib"
   },
   "author": "yiru"
 }
