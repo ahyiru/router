@@ -1,9 +1,10 @@
 {
   "name": "@huxy/router",
-  "version": "1.9.2",
+  "version": "2.0.0",
   "title": "useRouter",
   "feature": "0.0.1",
   "hooks": "0.0.1",
+  "type": "module",
   "description": "react router",
   "homepage": "https://github.com/ahyiru/router",
   "keywords": [
