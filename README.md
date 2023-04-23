@@ -2,7 +2,7 @@
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ahyiru/router/blob/develop/LICENSE)
 [![npm version](https://img.shields.io/npm/v/@huxy/router.svg)](https://www.npmjs.com/package/@huxy/router)
-[![Build Status](https://api.travis-ci.com/ahyiru/router.svg?branch=master)](https://app.travis-ci.com/github/ahyiru/router)
+[![npm](https://img.shields.io/npm/dt/@huxy/router)](https://www.npmjs.com/package/@huxy/router)
 [![](https://img.shields.io/badge/blog-ihuxy-blue.svg)](http://ihuxy.com/)
 
 ## 安装
