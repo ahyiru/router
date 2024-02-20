@@ -128,8 +128,6 @@ const routers = {
 
 `path` 提供动态路由，如：`/a/:id/:name` 。
 
-![routers](./routers.png)
-
 #### 页面路由信息
 
 每个路由都注册了一些基本信息，如：路由操作 router、前进后退 history、状态管理 store、当前面包屑 current、传入路径 inputPath、传入参数 params 等。也会将当前路由特定配置返回。
