@@ -1,6 +1,6 @@
 {
   "name": "@huxy/router",
-  "version": "2.1.14",
+  "version": "2.1.15",
   "title": "useRouter",
   "feature": "0.0.1",
   "hooks": "0.0.1",
@@ -15,7 +15,7 @@
     "useRouter"
   ],
   "sideEffects": false,
-  "main": "./lib/index.js",
+  "module": "./lib/index.js",
   "exports": {
     ".": "./lib/index.js",
     "./package.json": "./package.json"
@@ -27,7 +27,7 @@
   "license": "MIT",
   "dependencies": {},
   "peerDependencies": {
-    "react": ">=17.0.0"
+    "react": ">=18.0.0"
   },
-  "author": "yiru"
+  "author": "Yiru <ah.yiru@gmail.com>"
 }
